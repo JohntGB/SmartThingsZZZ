@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>60dc9b16-2f4f-4b77-8b80-2ddfc813104a</ProjectGuid>
+    <ProjectGuid>{60DC9B16-2F4F-4B77-8B80-2DDFC813104A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SmartThingsZZZ</RootNamespace>
@@ -31,24 +31,159 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="IFTTT-SmartApps\App1%402x.png" />
+    <Content Include="IFTTT-SmartApps\App1.png" />
+    <Content Include="img\add.png" />
+    <Content Include="img\alarmclock.png" />
+    <Content Include="img\calendar.png" />
+    <Content Include="img\clock.png" />
+    <Content Include="img\door.png" />
+    <Content Include="img\info.png" />
+    <Content Include="img\lock.png" />
+    <Content Include="img\modes.png" />
+    <Content Include="img\off.png" />
+    <Content Include="img\on.png" />
+    <Content Include="img\people.png" />
+    <Content Include="img\settings.png" />
+    <Content Include="img\speaker.png" />
+    <Content Include="img\switch.png" />
+    <Content Include="img\url.png" />
+    <Content Include="Other-SmartApps\AlexaHelper\AH-Off.png" />
+    <Content Include="Other-SmartApps\AlexaHelper\AH-On.png" />
+    <Content Include="Other-SmartApps\AlexaHelper\AlarmSirens\AlarmSiren1.mp3" />
+    <Content Include="Other-SmartApps\AlexaHelper\AlarmSirens\AlarmSiren2.mp3" />
+    <Content Include="Other-SmartApps\AlexaHelper\AlarmSirens\AlarmSiren3.mp3" />
+    <Content Include="Other-SmartApps\AlexaHelper\AlarmSirens\AlarmSiren4.mp3" />
+    <Content Include="Other-SmartApps\AlexaHelper\Alexa%402x.png" />
+    <Content Include="Other-SmartApps\AlexaHelper\Alexa.png" />
+    <Content Include="Other-SmartApps\AlexaHelper\CloudInterface%402x.png" />
+    <Content Include="Other-SmartApps\AlexaHelper\CloudInterface.png" />
+    <Content Include="Other-SmartApps\Announce-Presence\AnnouncePresence%402x.png" />
+    <Content Include="Other-SmartApps\Announce-Presence\AnnouncePresence.png" />
+    <Content Include="Other-SmartApps\AskAlexa\AskAlexa%402x.png" />
+    <Content Include="Other-SmartApps\AskAlexa\AskAlexa.png" />
+    <Content Include="Other-SmartApps\AskAlexa\AskAlexaNode.js" />
+    <Content Include="Other-SmartApps\CloudInterface\CloudInterface%402x.png" />
+    <Content Include="Other-SmartApps\CloudInterface\CloudInterface.png" />
+    <Content Include="Other-SmartApps\ColorCoordinator\CC%402x.png" />
+    <Content Include="Other-SmartApps\ColorCoordinator\CC.png" />
+    <Content Include="Other-SmartApps\icons\GCal%402x.png" />
+    <Content Include="Other-SmartApps\icons\GCal-Off%402x.png" />
+    <Content Include="Other-SmartApps\icons\GCal-On%402x.png" />
+    <Content Include="Other-SmartApps\icons\GCal.png" />
+    <Content Include="Other-SmartApps\icons\RuleMachine%402x.png" />
+    <Content Include="Other-SmartApps\icons\RuleMachine.png" />
+    <Content Include="Other-SmartApps\Ivee-Helper\Ivee%402x.png" />
+    <Content Include="Other-SmartApps\Ivee-Helper\Ivee.png" />
+    <Content Include="Other-SmartApps\Life360-Helper\life360%402x.png" />
+    <Content Include="Other-SmartApps\Life360-Helper\life360.png" />
+    <Content Include="Other-SmartApps\Light-Dark\LockDark%402x.png" />
+    <Content Include="Other-SmartApps\Light-Dark\LockDark.png" />
+    <Content Include="Other-SmartApps\Light-When-Unlocked\LockLight%402x.png" />
+    <Content Include="Other-SmartApps\Light-When-Unlocked\LockLight.png" />
+    <Content Include="Other-SmartApps\Lighting-Director\LightingDirector%402x.png" />
+    <Content Include="Other-SmartApps\Lighting-Director\LightingDirector.png" />
+    <Content Include="Other-SmartApps\Say-Good-Night\SayGoodNight%402x.png" />
+    <Content Include="Other-SmartApps\Say-Good-Night\SayGoodNight.png" />
+    <Content Include="Other-SmartApps\Smart-Bathroom-Ventilation\BathVent%402x.png" />
+    <Content Include="Other-SmartApps\Smart-Bathroom-Ventilation\BathVent.png" />
+    <Content Include="Other-SmartApps\Smart-Home-Ventilation\HomeVent%402x.png" />
+    <Content Include="Other-SmartApps\Smart-Home-Ventilation\HomeVent.png" />
+    <Content Include="Other-SmartApps\Smart-Nightlight\SmartLight%402x.png" />
+    <Content Include="Other-SmartApps\Smart-Nightlight\SmartLight.png" />
+    <Content Include="Other-SmartApps\Smart-Remote\remote%402x.png" />
+    <Content Include="Other-SmartApps\Smart-Remote\remote.png" />
+    <Content Include="Other-SmartApps\Smart-Room-Lighting-and-Dimming\SmartLight%402x.png" />
+    <Content Include="Other-SmartApps\Smart-Room-Lighting-and-Dimming\SmartLight.png" />
+    <Content Include="Other-SmartApps\Smart-Water-Heater\WHApp%402x.png" />
+    <Content Include="Other-SmartApps\Smart-Water-Heater\WHApp.png" />
+    <Content Include="Other-SmartApps\Talking-Alarm-Clock\AlarmSounds\AlarmAlien.mp3" />
+    <Content Include="Other-SmartApps\Talking-Alarm-Clock\AlarmSounds\AlarmBell.mp3" />
+    <Content Include="Other-SmartApps\Talking-Alarm-Clock\AlarmSounds\AlarmBuzzer.mp3" />
+    <Content Include="Other-SmartApps\Talking-Alarm-Clock\AlarmSounds\AlarmFire.mp3" />
+    <Content Include="Other-SmartApps\Talking-Alarm-Clock\AlarmSounds\AlarmRooster.mp3" />
+    <Content Include="Other-SmartApps\Talking-Alarm-Clock\AlarmSounds\AlarmSiren.mp3" />
+    <Content Include="Other-SmartApps\Talking-Alarm-Clock\Talkingclock%402x.png" />
+    <Content Include="Other-SmartApps\Talking-Alarm-Clock\Talkingclock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IFTTT-SmartApps\Switch-Activates-Hello-Home-Phrase\README.md" />
+    <None Include="IFTTT-SmartApps\Switch-Activates-Hello-Home-Phrase\Switch Activates Hello, Home Phrase.groovy" />
+    <None Include="IFTTT-SmartApps\Switch-Changes-Mode\README.md" />
+    <None Include="IFTTT-SmartApps\Switch-Changes-Mode\Switch Changes Mode.groovy" />
+    <None Include="IFTTT-SmartApps\Switch-Changes-Routine-or-Mode\Switch Changes Routine or Mode.groovy" />
+    <None Include="Other-SmartApps\AlexaHelper\CloudInterface.groovy" />
+    <None Include="Other-SmartApps\AlexaHelper\DO NOT INSTALL-Alexa Helper-Original.groovy" />
+    <None Include="Other-SmartApps\AlexaHelper\TestChild" />
+    <None Include="Other-SmartApps\AlexaHelper\TestParent" />
+    <None Include="Other-SmartApps\AlexaHelper\version history.md" />
+    <None Include="Other-SmartApps\AlexaHelper\VirtualDimmer.groovy" />
+    <None Include="Other-SmartApps\Announce-Presence\Announce Presence.groovy" />
+    <None Include="Other-SmartApps\AskAlexa\AATester.groovy" />
+    <None Include="Other-SmartApps\AskAlexa\AskAlexa.groovy" />
+    <None Include="Other-SmartApps\AskAlexa\AskAlexaIntent" />
+    <None Include="Other-SmartApps\AskAlexa\AskAlexaUtter" />
+    <None Include="Other-SmartApps\AskAlexa\AskAlexa_report.groovy" />
+    <None Include="Other-SmartApps\CloudInterface\CloudInterfaceTest.groovy" />
+    <None Include="Other-SmartApps\ColorCoordinator\CC1" />
+    <None Include="Other-SmartApps\ColorCoordinator\ColorCoordinator.groovy" />
+    <None Include="Other-SmartApps\Devices\MomentaryTileOn.Groovy" />
+    <None Include="Other-SmartApps\Devices\Virtual Dimmer.groovy" />
+    <None Include="Other-SmartApps\dimmer" />
+    <None Include="Other-SmartApps\Ivee-Helper\Ivee Helper-Big Switch.groovy" />
+    <None Include="Other-SmartApps\Ivee-Helper\README.md" />
+    <None Include="Other-SmartApps\Life360-Helper\Life360 Helper-Routine Change.groovy" />
+    <None Include="Other-SmartApps\Life360-Helper\README.md" />
+    <None Include="Other-SmartApps\Light-Dark\Light-Dark.groovy" />
+    <None Include="Other-SmartApps\Light-Dark\README.md" />
+    <None Include="Other-SmartApps\Light-When-Unlocked\Light When Unlocked.groovy" />
+    <None Include="Other-SmartApps\Light-When-Unlocked\README.md" />
+    <None Include="Other-SmartApps\Lighting-Director\Lighting Director.groovy" />
+    <None Include="Other-SmartApps\mqTest" />
+    <None Include="Other-SmartApps\Nest-Helper-Mode-Change\Nest Helper-Mode Change.groovy" />
+    <None Include="Other-SmartApps\Nest-Helper-Mode-Change\README.md" />
+    <None Include="Other-SmartApps\rule" />
+    <None Include="Other-SmartApps\RuleMachine" />
+    <None Include="Other-SmartApps\Say-Good-Night\Say Good Night!.groovy" />
+    <None Include="Other-SmartApps\SceneSetter\SceneSetter-Child.groovy" />
+    <None Include="Other-SmartApps\SceneSetter\SSS-Parent.groovy" />
+    <None Include="Other-SmartApps\Smart-Bathroom-Ventilation\DO NOT INSTALL-Smart-Bathroom-Ventilation-Original.groovy" />
+    <None Include="Other-SmartApps\Smart-Bathroom-Ventilation\README.md" />
+    <None Include="Other-SmartApps\Smart-Bathroom-Ventilation\Smart Bathroom Ventilation-Scenario.groovy" />
+    <None Include="Other-SmartApps\Smart-Bathroom-Ventilation\Smart Bathroom Ventilation.groovy" />
+    <None Include="Other-SmartApps\Smart-Home-Ventilation\README.md" />
+    <None Include="Other-SmartApps\Smart-Home-Ventilation\Smart Home Ventilation.groovy" />
+    <None Include="Other-SmartApps\Smart-Nightlight\README.md" />
+    <None Include="Other-SmartApps\Smart-Nightlight\Smart Nightlight +.groovy" />
+    <None Include="Other-SmartApps\Smart-Remote\Smart Remote-Original.groovy" />
+    <None Include="Other-SmartApps\Smart-Remote\Smart Remote-Scenario.groovy" />
+    <None Include="Other-SmartApps\Smart-Remote\Smart Remote.groovy" />
+    <None Include="Other-SmartApps\Smart-Room-Lighting-and-Dimming\DO NOT INSTALL-Smart Room Lighting and Dimming-Original.groovy" />
+    <None Include="Other-SmartApps\Smart-Room-Lighting-and-Dimming\README.md" />
+    <None Include="Other-SmartApps\Smart-Room-Lighting-and-Dimming\Smart Room Lighting and Dimming-scenario.groovy" />
+    <None Include="Other-SmartApps\Smart-Room-Lighting-and-Dimming\Smart Room Lighting and Dimming.groovy" />
+    <None Include="Other-SmartApps\Smart-Water-Heater\README.md" />
+    <None Include="Other-SmartApps\Smart-Water-Heater\Smart Water Heater.groovy" />
+    <None Include="Other-SmartApps\switch" />
+    <None Include="Other-SmartApps\Talking-Alarm-Clock\README.md" />
+    <None Include="Other-SmartApps\Talking-Alarm-Clock\TAC-Beta" />
+    <None Include="Other-SmartApps\Talking-Alarm-Clock\TACTest.groovy" />
+    <None Include="Other-SmartApps\Talking-Alarm-Clock\Talking-Alarm-Clock.groovy" />
+    <None Include="Other-SmartApps\test" />
+    <None Include="Other-SmartApps\test1" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
- </Project>
+</Project>
