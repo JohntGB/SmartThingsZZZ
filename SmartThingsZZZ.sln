@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartThingsZZZ", "SmartThingsZZZ.csproj", "{60DC9B16-2F4F-4B77-8B80-2DDFC813104A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60DC9B16-2F4F-4B77-8B80-2DDFC813104A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DC9B16-2F4F-4B77-8B80-2DDFC813104A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DC9B16-2F4F-4B77-8B80-2DDFC813104A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DC9B16-2F4F-4B77-8B80-2DDFC813104A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {564EB8AF-3A11-4732-B75C-99F898310D00}
+	EndGlobalSection
+EndGlobal
